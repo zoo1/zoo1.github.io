@@ -16,6 +16,14 @@ html body{
   float:left;
   padding-right:10px;
 }
+
+.linkImg{
+    height:75px;
+  width:75px;
+  display:inline;
+  float:left;
+  padding-right:10px;
+}
 a{
   text-decoration: none;
   color: #FFF;
