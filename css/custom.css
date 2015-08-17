@@ -1,0 +1,19 @@
+.skills_title{
+  color: #ccc;
+}
+
+html {
+  color :#000;
+}
+.header{
+
+  text-align: center;
+}
+.skillImg{
+  height:25px;
+  width:25px;display:inline;float:left;padding-right:10px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
