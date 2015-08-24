@@ -39,6 +39,11 @@ a:hover {
   color:#fff;
 }
 
+.select {
+  border-bottom: 2px solid #fff;
+  color:#fff;
+}
+
 .etabs {
   margin-bottom: 0em;
 }
