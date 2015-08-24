@@ -21,6 +21,10 @@ html body{
   height:75px;
   width:75px;
 }
+.resumeImg{
+  height:75px;
+  width:400px;
+}
 a{
   text-decoration: none;
   color: #FFF;
@@ -34,7 +38,17 @@ a{
   border-bottom: 0px;
 }
 
-a:hover {
+.resume:hover {
+  border-bottom: 2px solid #fff;
+  color:#fff;
+}
+
+.portfolio:hover {
+  border-bottom: 2px solid #fff;
+  color:#fff;
+}
+
+.summary:hover {
   border-bottom: 2px solid #fff;
   color:#fff;
 }
