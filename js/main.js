@@ -21,6 +21,7 @@ $(document).ready( function() {
 		$(".summary").removeClass("select");
 		$("#summary").hide();
 		$("#resume").show();
+		$("#portfolio").hide();
 	}
 
 	function showportfolio()
@@ -30,6 +31,7 @@ $(document).ready( function() {
 		$(".resume").removeClass("select");
 		$("#summary").hide();
 		$("#resume").hide();
+		$("#portfolio").show();
 	}
 	function showsummary()
 	{
@@ -38,5 +40,6 @@ $(document).ready( function() {
 		$(".portfolio").removeClass("select");
 		$("#summary").show();
 		$("#resume").hide();
+		$("#portfolio").hide();
 	}
 });
