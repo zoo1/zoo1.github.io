@@ -20,8 +20,9 @@ $(document).ready( function() {
 		$(".portfolio").removeClass("select");
 		$(".summary").removeClass("select");
 		$("#summary").hide();
-		$("#resume").show();
+		$("#resume").hide();
 		$("#portfolio").hide();
+		$("#resume").fadeToggle( "slow", "linear" );
 	}
 
 	function showportfolio()
@@ -31,14 +32,16 @@ $(document).ready( function() {
 		$(".resume").removeClass("select");
 		$("#summary").hide();
 		$("#resume").hide();
-		$("#portfolio").show();
+		$("#portfolio").hide();
+		$("#portfolio").fadeToggle( "slow", "linear" );
 	}
 	function showsummary()
 	{
 		$(".summary").addClass("select");
 		$(".resume").removeClass("select");
 		$(".portfolio").removeClass("select");
-		$("#summary").show();
+		$("#summary").hide();
+		$("#summary").fadeToggle( "slow", "linear" );
 		$("#resume").hide();
 		$("#portfolio").hide();
 	}
