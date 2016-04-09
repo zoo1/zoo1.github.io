@@ -11,14 +11,17 @@ $(document).ready( function() {
 	{
 		showsummary();
 	}
-	$(".resume").click(showresume);
-	$(".portfolio").click(showportfolio);
-	$(".summary").click(showsummary);
+	$("#resumeTab").click(showresume);
+	$("#portfolioTab").click(showportfolio);
+	$("#summaryTab").click(showsummary);
 	function showresume()
 	{
 		$(".resume").addClass("select");
 		$(".portfolio").removeClass("select");
 		$(".summary").removeClass("select");
+		$("#resumeTab").addClass("select");
+		$("#portfolioTab").removeClass("select");
+		$("#summaryTab").removeClass("select");
 		$("#summary").hide();
 		$("#resume").hide();
 		$("#portfolio").hide();
@@ -30,6 +33,9 @@ $(document).ready( function() {
 		$(".portfolio").addClass("select");
 		$(".summary").removeClass("select");
 		$(".resume").removeClass("select");
+		$("#resumeTab").removeClass("select");
+		$("#portfolioTab").addClass("select");
+		$("#summaryTab").removeClass("select");
 		$("#summary").hide();
 		$("#resume").hide();
 		$("#portfolio").hide();
@@ -40,6 +46,9 @@ $(document).ready( function() {
 		$(".summary").addClass("select");
 		$(".resume").removeClass("select");
 		$(".portfolio").removeClass("select");
+		$("#resumeTab").removeClass("select");
+		$("#portfolioTab").removeClass("select");
+		$("#summaryTab").addClass("select");
 		$("#summary").hide();
 		$("#summary").fadeToggle( "slow", "linear" );
 		$("#resume").hide();

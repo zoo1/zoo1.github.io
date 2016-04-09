@@ -39,23 +39,17 @@ a{
   border-bottom: 0px;
 }
 
-.resume:hover {
-  border-bottom: 2px solid ##ddd;
+.tabtext:hover {
+  border-bottom: 2px solid #DDD;
   color:#222;
 }
 
-.portfolio:hover {
-  border-bottom: 2px solid ##ddd;
-  color:#222;
-}
-
-.summary:hover {
-  border-bottom: 2px solid ##ddd;
-  color:#222;
+.tabtext {
+  color : #DDD;
 }
 
 .select {
-  border-bottom: 2px solid #222;
+  border-bottom: 2px solid #DDD;
   color:#222;
 }
 
