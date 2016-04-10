@@ -41,16 +41,16 @@ a{
 }
 
 .tabtext:hover {
-  border-bottom: 2px solid #DDD;
+  border-bottom: 2px solid #999;
   color:#222;
 }
 
 .tabtext {
-  color : #DDD;
+  color : #999;
 }
 
 .select {
-  border-bottom: 2px solid #DDD;
+  border-bottom: 2px solid #999;
   color:#222;
 }
 
