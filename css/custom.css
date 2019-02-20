@@ -27,12 +27,6 @@ html body{
   max-height: 75px;
 }
 
-@media only screen and (max-width: 600px) {
-  .resumeImg{
-    max-width: 100%;
-  }
-}
-
 a{
   text-decoration: none;
   color: #222;
@@ -41,9 +35,8 @@ a{
 
 .tab {
   font-size: 1.75em;
-  width: 33%;
+  width: 30%;
   display: inline-block;
-  *display: inline;
   border-bottom: 0px;
 }
 
@@ -124,4 +117,14 @@ hr {
 
 #resume {
   margin: 0 10%;
+}
+
+@media only screen and (max-width: 500px) {
+  .resumeImg{
+    max-width: 100%;
+  }
+
+  .tab {
+    width: 100%
+  }
 }
